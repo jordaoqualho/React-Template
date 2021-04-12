@@ -1,8 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
-import Logo from "./img/Logo.png";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 import "../../App.css";
 
@@ -10,7 +9,7 @@ const Menu = () => {
   return (
     <header className="flex_center_row">
       <div className="logo">
-        <img src={Logo} alt="" />
+        Test.io
       </div>
       <div className="menu_list">
         <ul className="flex_center_row">
@@ -18,16 +17,16 @@ const Menu = () => {
             <li>Home</li>
           </a>
           <a href>
-            <li>Doces</li>
+            <li>About</li>
           </a>
           <a href>
-            <li>Bolos</li>
+            <li>Prices</li>
           </a>
           <a href>
-            <li>Salgados</li>
+            <li>Contact</li>
           </a>
           <a href>
-            <FontAwesomeIcon icon={faShoppingCart} />
+            <FontAwesomeIcon icon={faUser} />
           </a>
         </ul>
       </div>
