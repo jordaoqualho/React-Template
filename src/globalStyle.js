@@ -1,12 +1,11 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
-    @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lato:wght@100;300;400;700&display=swap");
  html {
     --black: #272727;
     --pink: #ffd700;
-    --font: "Lato", sans-serif;
-    --font2: "Dela Gothic One", cursive;
+    --font: 'Dela Gothic One', cursive;
+    --font2: 'Lato', sans-serif;
     --lightGray: #c4c4c4;
     --darkGray: #828282;
     --grayBorder: #373737;

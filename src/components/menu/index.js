@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
-import {Header, List} from "./style";
+import { Header, List, MenuList } from "./style";
 
 const Menu = () => {
   return (
@@ -9,7 +9,7 @@ const Menu = () => {
       <div className="logo">
         Test.io
       </div>
-      <Menu >
+      <MenuList>
         <List className="flex_cc">
           <a href='/'>
             <li>Home</li>
@@ -27,7 +27,7 @@ const Menu = () => {
             <FontAwesomeIcon icon={faUser} />
           </a>
         </List>
-      </Menu>
+      </MenuList>
     </Header>
   );
 };

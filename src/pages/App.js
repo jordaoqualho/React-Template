@@ -1,6 +1,6 @@
 import React from "react";
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
-import LandingPage from "pages/Lading";
+import LandingPage from "./Lading/index";
 
 function App() {
   return (
@@ -8,8 +8,7 @@ function App() {
       <header >
         <Router>
           <Switch>
-            <Route exact path="/">
-              <LandingPage></LandingPage>
+            <Route exact path="/" component={LandingPage}>
             </Route>            
           </Switch>
         </Router>

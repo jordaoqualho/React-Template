@@ -23,7 +23,7 @@ export const Banner = styled.div`
     color: #ffd700;
     font-size: 100px;
     top: calc(50% - 250px);
-    font-family: var(--font2);
+    font-family: var(--font);
     mix-blend-mode: difference;
     text-shadow: 5px 4px 0px rgb(0 0 0 / 10%);
 

@@ -8,11 +8,11 @@ export const Header = styled.div`
     margin: 0 80px;
     cursor: pointer;
     font-size: 45px;
-    font-family: var(--font2);    
+    font-family: var(--font);    
   }
 `;
 
-export const Menu = styled.div`
+export const MenuList = styled.div`
   padding-right: 100px;
   width: 50%;
 `;
@@ -27,6 +27,10 @@ export const List = styled.div`
     font-size: 24px;
     :hover{
     opacity: 0.5;
+    }
+    li{
+    font-family: var(--font2);
+
     }
   } 
 `;

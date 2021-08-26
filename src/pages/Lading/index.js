@@ -1,12 +1,12 @@
 import React from "react";
-import Menu from "components/menu";
+import Menu from "components/menu/index";
 import Decoration from "img/Decoration.svg";
-import {Banner,Container} from "./style"
+import { Banner, Container } from "./style"
 // import { useHistory } from☻ "react-router-dom";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
-export const LandingPage = () => {
+const LandingPage = () => {
   // const history = useHistory();
   return (
     <div>
