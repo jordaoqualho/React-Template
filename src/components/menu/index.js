@@ -1,36 +1,34 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import { faUser } from "@fortawesome/free-solid-svg-icons";
-
-import "../../App.css";
+import {Header, List} from "./style";
 
 const Menu = () => {
   return (
-    <header className="flex_center_row">
+    <Header className="flex_cc">
       <div className="logo">
         Test.io
       </div>
-      <div className="menu_list">
-        <ul className="flex_center_row">
-          <a href>
+      <Menu >
+        <List className="flex_cc">
+          <a href='/'>
             <li>Home</li>
           </a>
-          <a href>
+          <a href='/'>
             <li>About</li>
           </a>
-          <a href>
+          <a href='/'>
             <li>Prices</li>
           </a>
-          <a href>
+          <a href='/'>
             <li>Contact</li>
           </a>
-          <a href>
+          <a href='/'>
             <FontAwesomeIcon icon={faUser} />
           </a>
-        </ul>
-      </div>
-    </header>
+        </List>
+      </Menu>
+    </Header>
   );
 };
 
