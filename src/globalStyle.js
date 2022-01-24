@@ -28,6 +28,10 @@ export default createGlobalStyle`
     outline: none;    
   }
   
+  body {
+    margin: 0;
+  }
+  
   button {
     cursor: pointer;
     border:none;
@@ -42,6 +46,11 @@ export default createGlobalStyle`
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+   .flex_ce {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
   }
   .flex_ccc {
     display: flex;

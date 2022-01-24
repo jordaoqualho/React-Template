@@ -6,24 +6,22 @@ import { Header, List, MenuList } from "./style";
 const Menu = () => {
   return (
     <Header className="flex_cc">
-      <div className="logo">
-        Test.io
-      </div>
-      <MenuList>
+      <div className="logo">Test.io</div>
+      <MenuList className="flex_ce">
         <List className="flex_cc">
-          <a href='/'>
+          <a href="/">
             <li>Home</li>
           </a>
-          <a href='/'>
+          <a href="/">
             <li>About</li>
           </a>
-          <a href='/'>
+          <a href="/">
             <li>Prices</li>
           </a>
-          <a href='/'>
+          <a href="/">
             <li>Contact</li>
           </a>
-          <a href='/'>
+          <a href="/">
             <FontAwesomeIcon icon={faUser} />
           </a>
         </List>
